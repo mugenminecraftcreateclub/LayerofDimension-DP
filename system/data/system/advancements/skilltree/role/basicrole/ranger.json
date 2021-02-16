@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ロール:レンジャー",
+        "description": "ルート",
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "background": "minecraft:textures/block/oak_planks.png",
+        "announce_to_chat":false,
+        "hidden":true,
+        "frame": "task"
+    },
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

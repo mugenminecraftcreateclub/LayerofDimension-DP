@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:item",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{
+              CustomModelData:100,
+                Status:{
+                HP:0d,
+                MP:0d,
+                Attack:20d,
+                Magic:0d,
+                AtkSpeed:-25d,
+                Defence:10d,
+                Resist:0d,
+                KnockbackResist:0d,
+                MovementSpeed:-25d,
+                ArrowDamage:0d,
+                ArrowSpeed:0d
+                      },
+              ItemRank:2d,
+              SetEquipment:0d
+              }"
+            },
+            {
+              "function":"minecraft:set_name",
+              "name":"バスターソード"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {"text": "アイテムランク:Basic"}
+              ],
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

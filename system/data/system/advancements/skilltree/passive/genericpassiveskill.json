@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "汎用パッシブスキル",
+        "description": "ルート",
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "background": "minecraft:textures/block/iron_block.png",
+        "announce_to_chat":false,
+        "hidden":true,
+        "frame": "task"
+    },
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

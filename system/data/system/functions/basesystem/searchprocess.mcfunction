@@ -1,0 +1,1 @@
+execute as @s at @s unless score @s team = @e[sort=nearest,tag=startsearch,limit=1] team run tag @s add searchcompleate

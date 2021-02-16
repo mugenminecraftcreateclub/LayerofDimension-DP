@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "パルシオン,ID:4",
+        "description": "スキルタイプ:メイン 発動条件:ステップ コスト:3 効果:周囲1.5mの敵にノックバック[3]と、<STR>*3のダメージを与える。 突進を行い周囲の敵を吹き飛ばすスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

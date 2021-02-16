@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function":"minecraft:copy_nbt",
+              "source":"this",
+              "ops":[
+                {
+                  "source":"Inventory[{Slot:-106b}].tag",
+                  "target":"{}",
+                  "op":"merge"
+                }
+              ]
+            },
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{CustomModelData:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

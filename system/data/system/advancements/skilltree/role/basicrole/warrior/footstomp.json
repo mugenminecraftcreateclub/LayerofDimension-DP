@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "震脚,ID:1",
+        "description": "スキルタイプ:サブ コスト:3 効果:周囲3mの敵を1ブロック上に吹き飛ばす。 強く大地を踏むことで、周囲の敵を打ち上げるスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

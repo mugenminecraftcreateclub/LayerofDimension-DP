@@ -1,0 +1,1 @@
+execute as @s[tag=!maxhpup] at @s run function system:skills/chatcommand/passive/hpup/masteryhpup

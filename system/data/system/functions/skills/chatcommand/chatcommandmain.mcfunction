@@ -1,0 +1,1 @@
+tellraw @s [{"text":"スキル習得:"},{"text":"パッシブスキル","color":"green","clickEvent":{"action":"run_command","value":"/function system:skills/chatcommand/passive/chatcommandpassivemain"}},{"text":" ロールスキル","color":"red","clickEvent":{"action":"run_command","value":"/function system:skills/chatcommand/role/chatcommandrolemain"}}]

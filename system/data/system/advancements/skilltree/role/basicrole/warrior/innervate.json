@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "練気",
+        "description": "スキルタイプ:パッシブ コスト:- 効果:HP,MP,攻撃力,防御力,HP再生速度,MP再生速度をそれぞれ+3%する。 気を張り巡らせ、身体能力を底上げするスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior/attackaura",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

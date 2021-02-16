@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "ウェポンマスタリー:ウォーリア",
+        "description": "指定されている武器を装備しているとき、物理攻撃力を+3する。 さらに、その武器を装備して無くても、物理攻撃力を+1する。 ウォーリアとして扱う武器の扱いに長けていることを表すスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

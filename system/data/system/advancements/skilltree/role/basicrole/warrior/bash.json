@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "バッシュ,ID:1",
+        "description": "スキルタイプ:メイン コスト:2 効果:物理攻撃のダメージを+10する。 力を入れて強力な一撃を放つスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

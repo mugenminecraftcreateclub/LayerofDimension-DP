@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "闘気,ID:2",
+        "description": "スキルタイプ:サブ コスト:8 効果:10秒間、物理攻撃力を+18,防御力を-9,ノックバック耐性を-30%する。 気を張り巡らせ、肉体を攻撃的に変質させるスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "レイジ,ID:1",
+        "description": "スキルタイプ:トリガー 発動条件:ダメージを受ける コスト:4 効果:10秒間、自分の物理攻撃のダメージを+12する。 怒りを力に転じるスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

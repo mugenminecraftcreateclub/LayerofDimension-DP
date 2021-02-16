@@ -1,0 +1,76 @@
+{
+  "scale": 1.75,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 4673362,
+    "fog_color": 7634561,
+    "water_color": 5335707,
+    "water_fog_color": 329011,
+    "particle": {
+      "options": {
+        "type": "minecraft:lava"
+      },
+      "probability": 0.0005
+    }
+  },
+  "surface_builder": "minecraft:volcano",
+  "carvers": {
+    "air": [
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+
+    ],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:ore_emerald",
+      "minecraft:ore_nether_quartz",
+      "minecraft:ore_nether_gold"
+    ],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+  ],
+  "spawners": {
+    "monster": [
+      
+    ],
+    "ambient": [
+      
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "precipitation": "none",
+  "temperature": 0.3,
+  "downfall": 0.2,
+  "category": "ocean",
+  "depth": 0.15
+}

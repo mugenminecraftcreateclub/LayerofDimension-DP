@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "ヴォルテクスアタック,ID:2",
+        "description": "スキルタイプ:エクステンド コスト:- 効果:次の攻撃のダメージを+[CL*10]する。上限は300。CTは300秒。 攻撃と同時に多数の衝撃波を発生させ、攻撃力を高めるスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior/bash",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+execute as @s at @s run loot replace entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=influencestatus] weapon.offhand loot system:copyinventory/offhand
+execute as @s at @s run loot replace entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=influencestatus] armor.chest loot system:copyinventory/chest
+execute as @s at @s run loot replace entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=influencestatus] armor.legs loot system:copyinventory/legs
+execute as @s at @s run loot replace entity @e[type=minecraft:armor_stand,limit=1,sort=nearest,tag=influencestatus] armor.feet loot system:copyinventory/foot

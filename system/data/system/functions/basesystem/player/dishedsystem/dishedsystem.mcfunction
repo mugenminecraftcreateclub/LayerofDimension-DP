@@ -1,0 +1,40 @@
+scoreboard players set @s FoodAbility 0
+execute as @s run scoreboard players operation @s EatFoodF += @s EatApple
+execute as @s run scoreboard players operation @s EatFoodF += @s EatBeef
+execute as @s run scoreboard players operation @s EatFoodF += @s EatBeetRoot
+execute as @s run scoreboard players operation @s EatFoodF += @s EatBeetRootS
+execute as @s run scoreboard players operation @s EatFoodF += @s EatBPotato
+execute as @s run scoreboard players operation @s EatFoodF += @s EatBread
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCake
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCarrot
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCBeef
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCChicken
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCCod
+execute as @s run scoreboard players operation @s EatFoodF += @s EatChicken
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCMutton
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCod
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCookie
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCPorkchop
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCRabbit
+execute as @s run scoreboard players operation @s EatFoodF += @s EatCSalmon
+execute as @s run scoreboard players operation @s EatFoodF += @s EatDriedKelp
+execute as @s run scoreboard players operation @s EatFoodF += @s EatENCGApple
+execute as @s run scoreboard players operation @s EatFoodF += @s EatGApple
+execute as @s run scoreboard players operation @s EatFoodF += @s EatMelonS
+execute as @s run scoreboard players operation @s EatFoodF += @s EatMushroom
+execute as @s run scoreboard players operation @s EatFoodF += @s EatMutton
+execute as @s run scoreboard players operation @s EatFoodF += @s EatPorkchop
+execute as @s run scoreboard players operation @s EatFoodF += @s EatPotato
+execute as @s run scoreboard players operation @s EatFoodF += @s EatPPotato
+execute as @s run scoreboard players operation @s EatFoodF += @s EatPufferF
+execute as @s run scoreboard players operation @s EatFoodF += @s EatPumpkinPie
+execute as @s run scoreboard players operation @s EatFoodF += @s EatRabbit
+execute as @s run scoreboard players operation @s EatFoodF += @s EatRabbitStew
+execute as @s run scoreboard players operation @s EatFoodF += @s EatRFlesh
+execute as @s run scoreboard players operation @s EatFoodF += @s EatSalmon
+execute as @s run scoreboard players operation @s EatFoodF += @s EatSpiderEye
+execute as @s run scoreboard players operation @s EatFoodF += @s EatSweetBerries
+execute as @s run scoreboard players operation @s EatFoodF += @s EatTropicalF
+execute as @s run scoreboard players operation @s EatFoodF += @s EatHoneyBottle
+execute as @s store result score @s FoodAbility run data get entity @s SelectedItem.tag.FoodAbility
+execute as @s[scores={EatFoodF=1..}] run function system:basesystem/player/dishedsystem/dishedeffect

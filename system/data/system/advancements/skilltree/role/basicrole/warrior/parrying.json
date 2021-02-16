@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "パリング",
+        "description": "スキルタイプ:パッシブ コスト:- 効果:ガード可能な武器を装備時、防御力を+3する。さらにガードに成功した場合、次の攻撃のダメージを+9する。 攻撃を受け流すことに長けていることを表すスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionF":{
+          "min":1,
+          "max":1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionFL":{
+          "min":1,
+          "max":1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionL":{
+          "min":1,
+          "max":1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionBL":{
+          "min":1,
+          "max":1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionB":{
+          "min":1,
+          "max":1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionBR":{
+          "min":1,
+          "max":1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionR":{
+          "min":1,
+          "max":1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "MainActionFR":{
+          "min":1,
+          "max":1
+        }
+      }
+    }
+  ]
+}

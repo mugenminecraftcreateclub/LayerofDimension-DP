@@ -1,0 +1,2 @@
+tellraw @s[tag=!maxhpup,scores={SkillPoint=1..},advancements={system:skilltree/passive/maxhpup/hpup1-1=false}] {"text":"HP上昇Ⅰ","clickEvent":{"action":"run_command","value":"/function system:skills/chatcommand/passive/hpup/processhpup"}}
+tellraw @s[tag=!maxhpup,scores={SkillPoint=1..},advancements={system:skilltree/passive/maxhpup/hpup1-1=true,system:skilltree/passive/maxhpup/hpup1-2=false}] {"text":"HP上昇Ⅱ","clickEvent":{"action":"run_command","value":"/function system:skills/chatcommand/passive/hpup/processhpup"}}

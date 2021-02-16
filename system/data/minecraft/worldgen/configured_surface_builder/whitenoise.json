@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:diorite"
+    },
+    "under_material": {
+      "Name": "minecraft:quartz_block"
+    },
+    "underwater_material": {
+      "Name": "minecraft:andesite"
+    }
+  },
+  "type": "minecraft:default"
+}

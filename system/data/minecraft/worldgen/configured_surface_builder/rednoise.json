@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:andesite"
+    },
+    "under_material": {
+      "Name": "minecraft:red_concrete_powder"
+    },
+    "underwater_material": {
+      "Name": "minecraft:netherrack"
+    }
+  },
+  "type": "minecraft:default"
+}

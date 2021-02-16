@@ -1,0 +1,2 @@
+execute as @s[scores={RightUniqItem=16777216,OnSneak=0}] run function system:skills/changemainactiontag
+execute as @s[scores={RightUniqItem=16777216,OnSneak=1}] run function system:skills/changetriggeractiontag

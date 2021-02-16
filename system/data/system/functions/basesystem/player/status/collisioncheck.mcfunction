@@ -1,0 +1,8 @@
+#赤石愛さんから頂いたもの
+execute at @s run tp @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] 105000.0 1.0 105000.0 ~ ~
+execute as @e[x=105000,y=1,z=105000,distance=..0.1,limit=1] at @s facing ^ ^ ^-1 run tp @s ~ ~ ~ ~ ~
+execute at @s positioned ^ ^ ^51.205 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^25.6 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^12.8 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^6.4 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^3.2 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^1.6 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^0.8 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^0.4 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^0.2 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^0.1 rotated as @e[x=105000,y=1,z=105000,distance=..0.1,limit=2] positioned ^ ^ ^0.05 if blocks ~-0.299 ~0.0 ~-0.299 ~0.299 ~1.8 ~0.299 105000 1 105000 all run tp @s[distance=..0.1] ~ ~ ~
+#ここまで
+execute as @s at @s store result score @s PosX run data get entity @s Pos[0] 10000
+execute as @s at @s store result score @s PosY run data get entity @s Pos[1] 10000
+execute as @s at @s store result score @s PosZ run data get entity @s Pos[2] 10000

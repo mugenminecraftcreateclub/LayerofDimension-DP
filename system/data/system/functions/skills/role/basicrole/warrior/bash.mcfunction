@@ -1,0 +1,3 @@
+execute if entity @s[scores={DealtDamage=1..}] run scoreboard players add @s Attack 10
+execute if entity @s[advancements={system:damage/test=true},scores={DealtDamage=1..}] at @e[nbt={HurtTime:10s}] run particle minecraft:block minecraft:iron_block ~ ~1 ~ 0.5 0.5 0.5 1 20 normal @a[distance=..10]
+execute if entity @s[advancements={system:damage/test=true},scores={DealtDamage=1..}] run scoreboard players remove @s MP 2

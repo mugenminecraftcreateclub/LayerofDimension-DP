@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "堅気,ID:3",
+        "description": "スキルタイプ:サブ コスト:6 効果:10秒間、物理防御力を+12,ノックバック耐性を+15%,物理攻撃力を-9する。 気を張り巡らせ、肉体を硬化させるスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

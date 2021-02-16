@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:dark_prismarine"
+    },
+    "under_material": {
+      "Name": "minecraft:prismarine"
+    },
+    "underwater_material": {
+      "Name": "minecraft:sea_lantern"
+    }
+  },
+  "type": "minecraft:nether_forest"
+}

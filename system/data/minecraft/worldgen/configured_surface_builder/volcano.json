@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:netherrack"
+    },
+    "under_material": {
+      "Name": "minecraft:magma_block"
+    },
+    "underwater_material": {
+      "Name": "minecraft:gilded_blackstone"
+    }
+  },
+  "type": "minecraft:default"
+}

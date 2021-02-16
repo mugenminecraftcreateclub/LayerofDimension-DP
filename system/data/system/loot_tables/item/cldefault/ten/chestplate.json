@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{
+              CustomModelData:1,
+                Status:{
+                HP:0d,
+                MP:0d,
+                Attack:0d,
+                Magic:0d,
+                AtkSpeed:0d,
+                Defence:7d,
+                Resist:0d,
+                KnockbackResist:0d,
+                MovementSpeed:0d,
+                ArrowDamage:0d,
+                ArrowSpeed:0d
+                  },
+              ItemRank:2d,
+              ItemType:0d,
+              WeaponType:-1d,
+              UniqItem:{
+                UniqItem:-1d,
+                SetEquipments:0d
+              }
+              }"
+            },
+            {
+              "function":"minecraft:set_name",
+              "name":"CL10標準装備セット"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {"text": "アイテムランク:Basic"}
+              ],
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

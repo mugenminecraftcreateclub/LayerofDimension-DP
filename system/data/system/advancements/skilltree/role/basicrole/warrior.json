@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ロール:ウォーリア",
+        "description": "スキルタイプ:ロール 効果:HP+25,物理攻撃力+2、防御力+2、耐性+1％ ウォーリアとしての力を得たことを表すスキル。",
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "background": "minecraft:textures/block/iron_block.png",
+        "announce_to_chat":false,
+        "hidden":true,
+        "frame": "task"
+    },
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

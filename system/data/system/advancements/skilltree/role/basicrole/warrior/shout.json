@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "シャウト,ID:4",
+        "description": "スキルタイプ:サブ コスト:6 効果:30秒間、半径120mの敵の視認範囲を+60mし、対象のヘイトを自身に向け、自身が発光する。　さらに、物理攻撃力を+[対象数]する。上限は30。 広い範囲の敵の敵意をこちらに向ける雄叫びを上げるスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

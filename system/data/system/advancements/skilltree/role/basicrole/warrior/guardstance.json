@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "ガードスタンス",
+        "description": "スキルタイプ:パッシブ コスト:- 効果:ガード可能な武器を装備時、防御力を+6する。 防御可能な武器での防御に長けていることを表すスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

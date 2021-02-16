@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "活性,ID:1",
+        "description": "スキルタイプ:エクステンド コスト:- 効果:HPを「CL*10」回復する。上限は200。 身体を一瞬で回復するスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

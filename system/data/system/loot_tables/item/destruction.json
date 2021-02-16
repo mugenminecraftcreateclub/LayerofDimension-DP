@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:item",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{
+              CustomModelData:2147483647,
+                Status:{
+                HP:0d,
+                MP:123456789d,
+                Attack:123456789d,
+                Magic:123456789d,
+                AtkSpeed:0d,
+                Defence:123456789d,
+                Resist:0d,
+                KnockbackResist:0d,
+                MovementSpeed:0d,
+                ArrowDamage:123456789d,
+                ArrowSpeed:0d
+                  },
+              ItemRank:5d,
+              ItemType:0d,
+              WeaponType:-1d,
+              UniqItem:{
+                UniqItem:2147483647d,
+                SetEquipments:1d
+              }
+              }"
+            },
+            {
+              "function":"minecraft:set_name",
+              "name":"創世:破壊"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {"text": "アイテムランク:Genesis"}
+              ],
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @a at @s store result score @s UseSkillSlot run data get entity @s SelectedItem.tag.UniqItem.skillslot

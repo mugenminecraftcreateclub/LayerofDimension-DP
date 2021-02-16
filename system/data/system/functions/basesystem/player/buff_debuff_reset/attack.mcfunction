@@ -1,0 +1,1 @@
+execute if entity @s[tag=swordbreak] run tag @s remove swordbreak

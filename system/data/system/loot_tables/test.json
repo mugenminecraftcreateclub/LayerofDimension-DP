@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function":"minecraft:copy_nbt",
+              "source":"this",
+              "ops":[
+                {
+                  "source":"ArmorItems[3].tag",
+                  "target":"{}",
+                  "op":"merge"
+                }
+              ]
+            },
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{CustomModelData:1,Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s}]}"
+            },
+            {
+              "function":"minecraft:set_name",
+              "name":"ステータス"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [{"text": "最大HP: "},{"score":{"name":"@p","objective":"MaxHP"}},{"text": " 最大MP: "},{"score":{"name":"@p","objective":"MaxMP"}}],
+                [{"text": "最大満腹度: "},{"score":{"name":"@p","objective":"MaxSaturation"}}],
+                [{"text": "攻撃力: "},{"score":{"name":"@p","objective":"Attack"}}],
+                [{"text": "防御力: "},{"score":{"name":"@p","objective":"Defence"}},{"text": " 耐性: "},{"score":{"name":"@p","objective":"Resist"}},{"text": "%"}],
+                [{"text": "攻撃速度: "},{"score":{"name":"@p","objective":"AttackSpeed"}},{"text": "%"},{"text": " 矢の速度: "},{"score":{"name":"@p","objective":"ArrowSpeed"}},{"text": "%"}],
+                [{"text": "STR: "},{"score":{"name":"@p","objective":"STR"}},{"text": " INT: "},{"score":{"name":"@p","objective":"INT"}}],
+                [{"text": "PER: "},{"score":{"name":"@p","objective":"PER"}},{"text": " DEX: "},{"score":{"name":"@p","objective":"DEX"}}],
+                [{"text": "VIT: "},{"score":{"name":"@p","objective":"VIT"}},{"text": " POW: "},{"score":{"name":"@p","objective":"POW"}}],
+                [{"text": "残りSP: "},{"score":{"name":"@p","objective":"SkillPoint"}},{"text": " 残りCP: "},{"score":{"name":"@p","objective":"CharaPoint"}}]
+              ],
+              "entity": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

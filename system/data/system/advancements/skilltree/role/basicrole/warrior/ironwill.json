@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "アイアンウィル",
+        "description": "スキルタイプ:パッシブ コスト:- 効果:HPが0になったとき、3%の確率で、死亡せずにHPを1にして耐える。 不屈の精神で戦闘不能を回避するスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior/defencestance",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

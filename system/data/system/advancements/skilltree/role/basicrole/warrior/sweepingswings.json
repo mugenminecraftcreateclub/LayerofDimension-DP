@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "薙ぎ払い,ID:5",
+        "description": "スキルタイプ:メイン コスト:7 効果:攻撃すると同時に前方を薙ぎ払い、物理攻撃力の65%のダメージを与える。 敵を薙ぎ払い、一掃するスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

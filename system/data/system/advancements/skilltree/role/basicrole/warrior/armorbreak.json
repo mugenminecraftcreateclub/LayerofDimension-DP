@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "アーマーブレイク,ID:3",
+        "description": "スキルタイプ:メイン コスト:3 効果:物理攻撃力を+3し、攻撃した対象の防御力を10秒間、-9する。 相手の鎧を一時的に脆くする攻撃を行うスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

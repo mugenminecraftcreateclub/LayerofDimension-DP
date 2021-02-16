@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "最大MP上昇Ⅰ-SL1",
+        "description": "最大MPを少し上昇させる。",
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/passive/genericpassiveskill",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

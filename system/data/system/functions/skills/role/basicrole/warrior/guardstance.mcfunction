@@ -1,0 +1,1 @@
+execute if entity @s[scores={WeaponType=2}] run scoreboard players add @s Defence 6

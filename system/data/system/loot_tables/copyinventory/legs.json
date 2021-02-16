@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function":"minecraft:copy_nbt",
+              "source":"this",
+              "ops":[
+                {
+                  "source":"Inventory[{Slot:101b}].tag",
+                  "target":"{}",
+                  "op":"merge"
+                }
+              ]
+            },
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{CustomModelData:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

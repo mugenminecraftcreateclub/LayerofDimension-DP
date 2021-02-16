@@ -1,0 +1,72 @@
+{
+  "scale": 0.0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 16558079,
+    "fog_color": 16773318,
+    "foliage_color": 41045,
+    "grass_color": 41045,
+    "water_color": 65514,
+    "water_fog_color": 329011
+  },
+  "surface_builder": "minecraft:grass",
+  "carvers": {
+    "air": [
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water"
+    ],
+    [],
+    [
+    ],
+    [],
+    [],
+    [
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:magic_forest",
+      "minecraft:dark_forest_vegetation_brown",
+      "minecraft:forest_flower_vegetation",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_forest",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "starts": [
+  ],
+  "spawners": {
+    "monster": [
+      
+    ],
+    "ambient": [
+      
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": true,
+  "precipitation": "rain",
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "category": "plains",
+  "depth": 0.125
+}

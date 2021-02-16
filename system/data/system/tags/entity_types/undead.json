@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:drowned",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:zombie",
+    "minecraft:zombie_horse",
+    "minecraft:zombie_pigman",
+    "minecraft:zombie_villager"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "test"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "bypasses_armor": false,
+                        "bypasses_invulnerability": false,
+                        "bypasses_magic": false,
+                        "is_explosion": false,
+                        "is_fire": false,
+                        "is_magic": false,
+                        "is_projectile": false,
+                        "is_lightning": false
+                    }
+                }
+            }
+        }
+    }
+}

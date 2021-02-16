@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "最大HP上昇Ⅱ-SL1",
+        "description": "最大HPを少し上昇させる。",
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/passive/maxhpup/hpup1-5",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

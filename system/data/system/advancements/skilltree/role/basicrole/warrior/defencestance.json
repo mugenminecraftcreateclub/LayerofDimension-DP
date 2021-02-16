@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "ディフェンススタンス",
+        "description": "スキルタイプ:パッシブ コスト:- 効果:HPを+30,防御力を+3する。 防御に長けていることを表すスキル。",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "background": "minecraft:textures/block/stone.png",
+        "announce_to_chat":false,
+        "hidden":false,
+        "frame": "task"
+    },
+    "parent":"system:skilltree/role/basicrole/warrior",
+    "criteria": {
+        "test": {
+            "trigger": "impossible"
+        }
+    }
+}

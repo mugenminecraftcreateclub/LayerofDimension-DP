@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:andesite"
+    },
+    "under_material": {
+      "Name": "minecraft:yellow_concrete_powder"
+    },
+    "underwater_material": {
+      "Name": "minecraft:yellow_terracotta"
+    }
+  },
+  "type": "minecraft:default"
+}

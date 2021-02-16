@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:andesite"
+    },
+    "under_material": {
+      "Name": "minecraft:mossy_cobblestone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:mossy_stone_bricks"
+    }
+  },
+  "type": "minecraft:default"
+}
