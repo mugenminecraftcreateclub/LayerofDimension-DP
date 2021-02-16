@@ -1,2 +1,2 @@
 # LayerofDimension
-LayerofDimensionのdatapack
+LayerofDimensionのDataPack
