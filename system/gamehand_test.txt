@@ -1,2 +1,0 @@
-This is test file by gamehand using VS Code.
-GitHub in VS Code is little bit difficult for now.
